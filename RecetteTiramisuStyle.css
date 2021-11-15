@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2? family= Syncopate & display=swap');
+
+body{
+    background-color: black;
+    font-family : 'Syncopate', sans-serif ;
+}
+
+
+/* CSS DU HEADER TITRE + LOGO */
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logoHeader{
+    height: 300x;
+    width: 300px;
+}
+
+.dolce{
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: xx-large;
+    
+    
+}
+
+.ricettes{
+    display: flex;
+    align-items: center;
+    color: green;
+    font-size: xx-large;
+}
+
+
+/* CSS DE LA NAVBAR */
+.uk-navbar-left{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.uk-navbar-nav .uk-active{
+    padding: 0 60px;
+} 
+
+/* CSS DES ÉLEMENTS DE LA NAVBAR */
+#pannacotta
+{
+    color: green;
+    
+}
+
+#tiramisu{
+    color:white;
+}
+
+#zuccotto{
+    color: red;
+    
+}
+
+#pannetone{
+    color: green;
+}
+
+#cassata{
+    color: white;
+}
+
+/* CSS EFFET DE SURVOL DES ITEMS DE LA NAVBAR */
+#pannacotta:hover{
+    color: #FFD700;
+}
+
+#tiramisu:hover{
+    color: #FFD700;
+}
+
+#zuccotto:hover{
+    color: #FFD700;
+}
+
+#pannetone:hover{
+    color: #FFD700;
+}
+
+#cassata:hover{
+    color: #FFD700;
+}
+
+/* CSS TITRE DE LA RECETTE */
+.title{
+    font-family : 'Syncopate', sans-serif ;
+    text-align: center;
+    color: white;
+}
+
