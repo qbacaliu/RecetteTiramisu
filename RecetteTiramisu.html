@@ -5,13 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- UIkit CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css"
-    />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" href="RecetteTiramisuStyle.css">
     <title>Document</title>
   </head>
   <body>
+
+     <!-- DÉBUT DU HEADER -->
+     <div class="header" id="header">
+      <!-- TITRE DOLCE + LOGO + RICETTES -->
+           <p class="dolce" id="dolce">dolce</p>
+           <img src="IMAGESTIRAMISU/LOGO.png" class="logoHeader">
+           <p class="ricettes" id="ricettes">ricettes</p>
+ 
+       </div>
+ 
+ 
+      <!-- NAVBAR MENU AVEC LISTE -->  
+       <nav class="uk-navbar-container" uk-navbar>
+         <div class="uk-navbar-left">
+ 
+           <ul class="uk-navbar-nav">
+                   <li id="pannacotta" class="uk-active">PANNA COTTA</li>
+                   <li id="tiramisu" class="uk-active">TIRAMISU</li>
+                   <li id="zuccotto" class="uk-active">ZUCCOTTO</li>
+                   <li id="pannetone" class="uk-active">PANNETONE</li>
+                   <li id="cassata" class="uk-active">CASSATA</li>
+           </ul>
+ 
+         </div>
+     </nav>
+     <!-- FIN DE LA NAVBAR MENU AVEC LISTE -->
+ 
+ 
+     <!-- DÉBUT TITRE RECETTE -->
+     <h1 class="title" id="title">RECETTE DU TIRAMISU</h1>
+
+
+
     <!-- EXAMPLE -->
     <div class="uk-container uk-container-xlarge">
       <div uk-slider>
