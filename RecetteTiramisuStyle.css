@@ -107,6 +107,7 @@ body{
 
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 
 
@@ -120,6 +121,7 @@ footer{
 #ingredients{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 #ingredientsList{
@@ -127,6 +129,10 @@ footer{
     width: 30%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    font-size: 17px;
     
 
 }
@@ -146,6 +152,14 @@ h2{
     text-align: center;
     text-decoration: underline;
     margin-top: 5px;
+    font-family : 'Syncopate', sans-serif ;
+    font-size: 25px;
+    margin-top: 2%;
 
+}
+
+h5{
+    color:white;
+    text-decoration: underline;
 }
 
