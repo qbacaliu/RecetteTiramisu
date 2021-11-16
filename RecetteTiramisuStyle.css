@@ -109,11 +109,43 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#ingredients{
+
+#descriptionTiramisu{
+    color: green;
+    text-align: center;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
 }
 
-h2{
-    color: green;
+#ingredients{
+    display: flex;
+    justify-content: space-around;
 }
+
+#ingredientsList{
+    border: solid 1px white;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+
+}
+
+#todoList{
+    border: solid 1px white;
+    width: 60%;
+    height: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+
+h2{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+
+}
+
