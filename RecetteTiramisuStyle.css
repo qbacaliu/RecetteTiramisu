@@ -121,11 +121,13 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
 #ingredientsList{
     border: solid 1px white;
     width: 30%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    
 
 }
 
@@ -136,10 +138,14 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 
-
 }
 
 
 h2{
     color: red;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+
 }
+
