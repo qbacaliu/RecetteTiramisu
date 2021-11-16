@@ -108,3 +108,12 @@ body{
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#ingredients{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h2{
+    color: green;
+}
