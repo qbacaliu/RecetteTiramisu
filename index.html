@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- Hello, this page needs certain files and folders to work
+the files are: style.css, script.js and the folder, 
+called Assets is where you'll find all images and logos.
+Also, near the closing body tag, you'll find links to UIKIT's CDN;
+a framework that makes this page beautiful and responsive.
+this website simply won't work without those.
+Otherwise, feel free to modify it.
+
+Daniel Ricardo
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Shows the website logo on browser tab -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Main Stylesheet for the page -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Dolce Ricettes</title>
+  </head>
+  <body>
+    <div class="uk-container-expand">
+      <div class="txt-logo-txt">
+        <span style="color: red">Dolce</span>
+        <img src="assets/LOGO.png" width="250" alt="logo" />
+        <span style="color: green">Ricettes</span>
+      </div>
+      <nav class="uk-navbar-container uk-navbar" style="background: none">
+        <!-- Fake navbar, P acting as UL/LI -->
+        <p class="faux-link green">PANNA COTA</p>
+        <p class="faux-link white">TIRAMISU</p>
+        <p class="faux-link red">ZUCCOTTO</p>
+        <p class="faux-link green">PANNETONE</p>
+      </nav>
+      <h1 class="main-title">RECETTE DU TIRAMISU</h1>
+      <!--Description of Tiramissu
+    as of now, this section looks kind of lazy, please improve it-->
+      <p class="description">
+        Le tiramisu (de l'italien « tiramisù » [ˌtiramiˈsu], du vénitien «
+        tiramesù », littéralement « tire-moi vers le haut », « remonte-moi le
+        moral », « redonne-moi des forces ») est une pâtisserie et un dessert
+        traditionnel de la cuisine italienne. Ce classique italien est le
+        dessert crémeux par excellence avec du café, de l'amaretto et des
+        boudoirs en éponge.
+      </p>
+      <!--Two sections, one for the recipe, another for the todo-->
+      <div
+        class="
+          uk-grid-collapse
+          uk-child-width-expand@s
+          uk-text-center
+          uk-margin-large-top
+          uk-grid
+        "
+      >
+        <div>
+          <!--Those are the two main attractions of this ZOO
+            one div for the ingredients, another for the list
+        please consult UIKIT's website for more info regarding those-->
+          <div
+            class="uk-background-secondary uk-padding uk-light"
+            style="background-color: black"
+          >
+            <div class="ingredients">
+              <h1 class="section-title" style="color: red">Ingrédients</h1>
+              <!--As french people say, je triche ! 
+            I used • (bulletpoints) that I copied and pasted from Google
+            instead of making another UL/LI and having to rewriting my code to avoid conflicts.
+            Ain't nobody got time for that shit.
+            SUE ME !-->
+              <div class="recipe">
+                <p>•100 gr de sucre roux</p>
+                <p>•1 sachet de sucre vanillé</p>
+                <p>•24 biscuits à la cuillère</p>
+                <p>•3 oeufs 250 gr de mascarpone</p>
+                <p>•50 cl de café noir non sucré</p>
+                <p>•30 gr de cacao amer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="uk-background-secondary uk-padding uk-light"
+            style="background-color: black"
+          >
+            <!--This is where the magic happens
+            pay attention to the ID's here and look for them on script.js to understand what's REALLY going on
+            also, take a look at the tags used here and see what they're doing on The CSS
+            This list absolutely needs certain CSS tricks to work
+            Don't worry, I commented those parts  -->
+            <div class="list-container">
+              <h1 class="section-title" style="color: red">Étapes à suivre</h1>
+              <form action="#">
+                <input
+                  type="text"
+                  name="item"
+                  id="item"
+                  placeholder="Ajouter tache"
+                />
+              </form>
+              <ul id="list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-uk-slider>
+        <span class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@">
+          <span>
+            <img src="assets/TIRAMISU1.jpg" alt="Dessert" />
+          </span>
+          <span>
+            <img src="assets/TIRAMISU2.jpg" alt="Dessert" />
+          </span>
+          <span>
+            <img src="assets/TIRAMISU3.jpg" alt="Dessert" />
+          </span>
+          <span>
+            <img src="assets/TIRAMISU4.jpg" alt="Dessert" />
+          </span>
+          <span>
+            <img src="assets/TIRAMISU5.jpg" alt="Dessert" />
+          </span>
+          <span>
+            <img src="assets/TIRAMISU6.jpg" alt="Dessert" />
+          </span>
+          <span>
+            <img src="assets/TIRAMISU7.jpg" alt="Dessert" />
+          </span>
+        </span>
+      </div>
+      <footer>
+        <div
+          class="
+            uk-grid-collapse
+            uk-child-width-expand@s
+            uk-text-center
+            uk-margin-large-top
+          "
+          data-uk-grid
+        >
+          <div class="contact">
+            <div
+              class="uk-background-secondary uk-padding uk-light"
+              style="background-color: black"
+            >
+              <h4>PLEASE CONTACT US AT:</h4>
+              <a class="mail" href="mailto:someone@yoursite.com"
+                >tiramisugang@gmail.com</a
+              >
+              <div class="social">
+                <a href="" class="uk-icon-button" data-uk-icon="twitter"></a>
+                <a href="" class="uk-icon-button" data-uk-icon="facebook"></a>
+                <a href="" class="uk-icon-button" data-uk-icon="instagram"></a>
+              </div>
+            </div>
+          </div>
+          <div class="dream-team">
+            <div
+              class="uk-background-secondary uk-padding uk-light"
+              style="background-color: black"
+            >
+              <h4>DREAM TEAM</h4>
+              <p>Qëndresa</p>
+              <p>Harmony</p>
+              <p>Laura</p>
+              <p>Daniel Ricardo</p>
+            </div>
+          </div>
+          <div class="legal">
+            <div
+              class="uk-background-secondary uk-padding uk-light"
+              style="background-color: black"
+            >
+              <h4>MENTIONS LÉGALES</h4>
+              <p>Conditions Générales d'Utilisation</p>
+              <p>Politique de protection des données personnelles</p>
+            </div>
+          </div>
+        </div>
+        <div class="uk-text-center">
+          <span class="uk-text-small uk-text-muted">©2021 DOLCE RICETTE </span>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Javascript for the TODO list -->
+    <script src="script.js"></script>
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css"
+    />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>

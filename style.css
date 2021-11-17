@@ -1,0 +1,142 @@
+/* Fonts used in the website*/
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.txt-logo-txt {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.uk-navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: white;
+}
+
+.faux-link {
+  font-family: "Syncopate", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 0%;
+}
+
+.main-title {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+
+.ingredients,
+.list-container {
+  border: 1px solid;
+  border-color: white;
+}
+
+.section-title {
+  font-family: "Syncopate", sans-serif;
+  font-size: 2em;
+  padding-top: 1em;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: initial;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#list {
+  list-style: none;
+  text-align: initial;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+ul li {
+  color: #ffffff;
+  font-weight: 400;
+  border-bottom: 1px solid #ffffff;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+
+/*Makes the little checkbox on our list*/
+ul li:before {
+  content: "□";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+/*Puts a horizontal line accross the text on hover*/
+ul li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+/*Colours the checked text green 
+through the powers of javascript*/
+.checked {
+  color: green;
+}
+.checked:before {
+  content: "✓";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.checked:hover {
+  text-decoration: none;
+}
+.checked:hover:after {
+  content: "  ✕";
+  color: red;
+  text-align: right;
+}
+.social {
+  padding: 1em;
+}
+
+.contact,
+.dream-team,
+.legal {
+  text-align: initial;
+}
+
+.green {
+  color: green;
+}
+.white {
+  color: white;
+}
+.red {
+  color: red;
+}
+.green:hover {
+  color: #ffd700;
+}
+.white:hover {
+  color: #ffd700;
+}
+.red:hover {
+  color: #ffd700;
+}
